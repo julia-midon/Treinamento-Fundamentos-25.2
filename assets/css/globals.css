@@ -9,6 +9,17 @@ h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+div.barra   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.direita {
+    display: flex;
+    flex-direction: row;
+}
+
 #linha {
     background-color: black;
     font-size:xx-small;
@@ -33,7 +44,10 @@ div.catalogo {
 }
 
 button.main {
-    background-color: #ffffff;
     padding: 20px;
     border-radius: 50px;
+}
+
+button:hover {
+    background-color: aquamarine;
 }
