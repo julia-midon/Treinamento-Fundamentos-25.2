@@ -49,5 +49,56 @@ button.main {
 }
 
 button:hover {
-    background-color: aquamarine;
+    transform: scale(1.15);
 }
+
+div.divisao-meio {
+    display: flex;
+    flex-direction:row;
+}
+
+div.sobre-loki {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    width: 500px;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.capa {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #85ec66;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.capa input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid green;
+    justify-content: center;
+    text-align: center;
+}
+
+.capa button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.capa button:hover {
+    background-color: darkgreen;
+    transform: scale(1.01);
+}
+
